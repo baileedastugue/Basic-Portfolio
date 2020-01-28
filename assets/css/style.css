@@ -118,8 +118,10 @@ input[name=email]{
 input[name=message] {
     height: 200px;
     padding-top: 0;
-    padding-bottom: 150px;
+    padding-bottom: 180px;
     text-align: top;
+    overflow-wrap: normal;
+    overflow: scroll;
 }
 
 input:focus {
@@ -130,7 +132,9 @@ input[type=submit] {
     background-color: #eaac9d;
     border: none;
     color: #ffffff;
-    margin: 4px 2px;
+    margin: 4px 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #footer {
