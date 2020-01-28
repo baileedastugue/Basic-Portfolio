@@ -13,7 +13,7 @@ header {
     background-color: #ffffff;
     height: 70px;
     color: #777777;
-    border: 1px solid #666666;
+    border-bottom: 1.5px solid gray;
     position: sticky;
     top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,9 +23,9 @@ header h1{
     float: left;
     font-weight: 300;
     text-align: center;
-    background-color: #4aaaa5;
+    background-color: #eaac9d;
     width: 300px;
-    height: 70px;
+    height: 68px;
     margin: 0px;
     margin-left: 250px;
     padding-top: 15px;
@@ -47,7 +47,7 @@ a:link {
 } 
 
 a:visited {
-    color: #4aaaa5;
+    color: #eaac9d;
 }
 
 a:hover {
@@ -73,7 +73,7 @@ main hr {
 }
 
 main h2 {
-    color: #4aaaa5;
+    color: #eaac9d;
     font-size: 2em;
     font-weight: 200;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -89,8 +89,8 @@ main img {
 footer {
     height: 80px;
     width: 100%;
-    background-color: #666666;
-    border-top: 5px solid #4aaaa5;
+    background-color: gray;
+    border-top: 5px solid #eaac9d;
     margin-top: 10px;
 }
 
