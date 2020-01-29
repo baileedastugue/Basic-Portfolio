@@ -107,6 +107,7 @@ a:hover {
 
 input[type=text] {
     width: 100%;
+    font-size: 1em;
 }
 
 input[name=fullname], 
